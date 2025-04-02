@@ -25,7 +25,7 @@ struct PakalApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LoginSesion()
         }
         .modelContainer(sharedModelContainer)
     }
